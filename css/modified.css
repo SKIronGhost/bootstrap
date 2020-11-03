@@ -1,0 +1,78 @@
+
+  .navbar{
+    background-color: #f50005;
+  }
+  .nav-item:hover{
+    background-color: #c50005;
+    outline: 8px solid #c50005;
+  }
+
+  .dropdown-menu{
+    background-color:#f50005c8;
+  }
+  .dropdown-item{
+    color: white;
+    /* opacity: 20%;s */
+  }
+
+  .dropdown-item:hover{
+    background-color: #f50005;
+    outline: 3px solid #c50005;
+    color: white;
+  }
+
+  .jumbotron p,h1{
+    color: white;
+  }
+
+  .carousel-inner{
+    height: 400px;
+  }
+
+  .carousel-item{
+    position: relative;
+    height: 100%;
+}
+
+.carousel-item img{
+  position: absolute;   
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+.jumbotron{
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.card-img{
+  height: 150px;
+  width: auto;
+}
+
+.row{
+  /* background-color: #f50005; */
+  margin-top: 0;
+  padding: 40px;
+}
+
+.card{
+  margin: 0 10px;
+  width: 45%;
+  padding: 10px;
+  border: none;
+  /* color: white; */
+}
+
+.card:hover{
+  outline: 3px solid #f50005;
+}
+
+footer{
+  background-color: #f50005;
+  color: white;
+}
+
+footer a{
+  color: #343a40;
+}
